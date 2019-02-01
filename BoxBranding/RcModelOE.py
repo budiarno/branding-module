@@ -8,7 +8,7 @@ machinebrand = getMachineBrand()
 brandoem = getBrandOEM()
 
 
-class RcModel:
+class RcModelOE:
 	def __init__(self):
 		pass
 
