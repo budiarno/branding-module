@@ -428,6 +428,7 @@ AM_CONDITIONAL(HD1100, test "$MACHINE_BUILD" == hd1100)
 AM_CONDITIONAL(HD11, test "$MACHINE_BUILD" == hd11)
 AM_CONDITIONAL(HD500C, test "$MACHINE_BUILD" == hd500c)
 AM_CONDITIONAL(HD530C, test "$MACHINE_BUILD" == hd530c)
+AM_CONDITIONAL(HITUBE4K, test "$BOXTYPE" == hitube4k)
 AM_CONDITIONAL(MUTANT51, test "$BOXTYPE" == mutant51)
 AM_CONDITIONAL(MUTANT60, test "$BOXTYPE" == mutant60)
 AM_CONDITIONAL(ODINM6, test "$BOXTYPE" == odinm6)
@@ -552,6 +553,7 @@ BoxBranding/remotes/hd1100/Makefile
 BoxBranding/remotes/hd530c/Makefile
 BoxBranding/remotes/hd2400/Makefile
 BoxBranding/remotes/hd60/Makefile
+BoxBranding/remotes/hitube/Makefile
 BoxBranding/remotes/ini0/Makefile
 BoxBranding/remotes/ini1/Makefile
 BoxBranding/remotes/ini2/Makefile
