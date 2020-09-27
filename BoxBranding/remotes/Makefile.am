@@ -571,3 +571,7 @@ endif
 if ULTRAV8PLUS
 SUBDIRS += v8plus
 endif
+
+if HITUBE4K
+SUBDIRS += hitube
+endif
